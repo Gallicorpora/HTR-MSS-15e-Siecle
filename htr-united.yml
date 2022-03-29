@@ -1,7 +1,8 @@
 schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-title: Titre dataset
-description: Courte description du depot
-url: https://github.com/Gallicorpora/template-depot
+title: Données HTR manuscrits du 15e siècle
+description: Corpus d'entrainement pour l'HTR composé de manuscrits français du 15e s.
+url: https://github.com/Gallicorpora/HTR-MSS-15e-Siecle
+
 authors:
   - name: Sagot
     surname: Benoît
