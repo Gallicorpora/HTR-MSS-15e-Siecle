@@ -1,8 +1,7 @@
 schema: https://htr-united.github.io/schema/2021-10-15/schema.json
 title: Données HTR manuscrits du 15e siècle
 description: Corpus d'entrainement pour l'HTR composé de manuscrits français du 15e s.
-url: https://github.com/Gallicorpora/HTR-MSS-15e-Siecle
-
+url: "https://github.com/Gallicorpora/HTR-MSS-15e-Siecle"
 authors:
   - name: Sagot
     surname: Benoît
@@ -37,7 +36,7 @@ authors:
     roles:
       - Transcriptor
 project-name: Gallicorpora
-project-website: https://github.com/Gallicorpora
+project-website: "https://github.com/Gallicorpora"
 language:
   - frm
   - fra
@@ -57,4 +56,4 @@ format: Alto-XML
 volume:
   - metric: lines
     count: 0
-transcription-guidelines: Les normes de transcription suivent les préconisations du projet CREMMALAB : https://cremmalab.hypotheses.org
+transcription-guidelines: "Les normes de transcription suivent les préconisations du projet CREMMALAB : https://cremmalab.hypotheses.org"
