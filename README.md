@@ -1,4 +1,4 @@
-template-depot
+Données HTR manuscrits du 15e siècle
 ===========================
 
 ![characters badge](badges/characters.svg) ![regions badge](badges/regions.svg) ![lines badge](badges/lines.svg) ![files badge](badges/files.svg) 
@@ -6,7 +6,8 @@ template-depot
 ## Données 
 
 Les données se trouvent au chemin ‘./data/*/*.xml‘.
-Elles sont au format alto (v.4) et suivent les normes de segmentation SegmOnto (https://segmonto.github.io). Toutes les données sont cataloguées sur HTR-United (https://htr-united.github.io). 
+Elles sont au format alto (v.4) et suivent les normes de segmentation SegmOnto (https://segmonto.github.io). Toutes les données sont cataloguées sur HTR-United (https://htr-united.github.io).
+Les données ont été transcrites par Noé Leroy.
 
 
 ## Financeur
