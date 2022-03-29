@@ -32,7 +32,7 @@ authors:
     surname: Jean-Baptiste
     roles:
       - project-manager
- - name: Leroy
+  - name: Leroy
     surname: Noé
     roles:
       - Transcriptor
