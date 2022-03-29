@@ -33,7 +33,7 @@ authors:
   roles:
   - project-manager
 - name: Leroy
-  surname: "No\xE9"
+  surname: transcriber
   roles:
   - Transcriptor
 project-name: Gallicorpora
