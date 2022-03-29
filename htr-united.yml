@@ -31,6 +31,10 @@ authors:
     surname: Jean-Baptiste
     roles:
       - project-manager
+ - name: Leroy
+    surname: Noé
+    roles:
+      - Transcriptor
 project-name: Gallicorpora
 project-website: https://github.com/Gallicorpora
 language:
@@ -41,7 +45,7 @@ script:
 script-type: evenly-mixed
 time:
   notBefore: '1400'
-  notAfter: '1900'
+  notAfter: '1600'
 hands:
   count: 1-per-folder
   precision: estimated
@@ -52,4 +56,4 @@ format: Alto-XML
 volume:
   - metric: lines
     count: 0
-transcription-guidelines: Ajouter les références des normes de transcription
+transcription-guidelines: Les normes de transcription suivent les préconisations du projet CREMMALAB : https://cremmalab.hypotheses.org
