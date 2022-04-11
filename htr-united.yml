@@ -56,12 +56,12 @@ license:
 format: Alto-XML
 volume:
 - metric: characters
-  count: 18289
+  count: 29898
 - metric: files
-  count: 20
+  count: 30
 - metric: lines
-  count: 576
+  count: 800
 - metric: regions
-  count: 51
+  count: 105
 transcription-guidelines: "Les normes de transcription suivent les pr\xE9conisations\
   \ du projet CREMMALAB : https://cremmalab.hypotheses.org"
