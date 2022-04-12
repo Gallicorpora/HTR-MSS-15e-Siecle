@@ -25,60 +25,6 @@
                   WIDTH="3526"
                   HEIGHT="5397">
         
-        <TextBlock HPOS="1116"
-                   VPOS="449"
-                   WIDTH="464"
-                   HEIGHT="104"
-                   ID="block_2"
-                   TAGREFS="BT2382">
-          <Shape><Polygon POINTS="1580 467 1580 535 1134 553 1116 449"/></Shape>
-          
-          
-          <TextLine ID="line_0"
-                    TAGREFS="LT838"
-                    BASELINE="1112 530 1567 521" 
-                    HPOS="1107"
-                    VPOS="431"
-                    WIDTH="460"
-                    HEIGHT="140">
-            <Shape><Polygon POINTS="1112 530 1107 431 1558 436 1567 521 1567 566 1112 571"/></Shape>
-	    <String CONTENT="De saint andri."
-                    HPOS="1107"
-                    VPOS="431"
-                    WIDTH="460"
-                    HEIGHT="140"></String>
-          </TextLine>
-
-          
-        </TextBlock>
-        
-        <TextBlock HPOS="2251"
-                   VPOS="467"
-                   WIDTH="356"
-                   HEIGHT="86"
-                   ID="block_1"
-                   TAGREFS="BT2390">
-          <Shape><Polygon POINTS="2589 467 2607 553 2251 553 2251 467"/></Shape>
-          
-          
-          <TextLine ID="line_1"
-                    TAGREFS="LT838"
-                    BASELINE="2242 539 2602 530" 
-                    HPOS="2233"
-                    VPOS="449"
-                    WIDTH="369"
-                    HEIGHT="117">
-            <Shape><Polygon POINTS="2242 539 2233 458 2589 449 2602 530 2602 562 2242 566"/></Shape>
-	    <String CONTENT="Fueillet.ix"
-                    HPOS="2233"
-                    VPOS="449"
-                    WIDTH="369"
-                    HEIGHT="117"></String>
-          </TextLine>
-
-          
-        </TextBlock>
-        
         <TextBlock HPOS="263"
                    VPOS="636"
                    WIDTH="1165"
@@ -87,36 +33,20 @@
                    TAGREFS="BT2713">
           <Shape><Polygon POINTS="263 636 263 4324 1428 4324 1428 636"/></Shape>
           
-        </TextBlock>
-        
-        <TextBlock HPOS="1460"
-                   VPOS="647"
-                   WIDTH="1192"
-                   HEIGHT="3656"
-                   ID="eSc_textblock_4e608a22"
-                   TAGREFS="BT2714">
-          <Shape><Polygon POINTS="1460 647 1460 4303 2652 4303 2652 647"/></Shape>
-          
-        </TextBlock>
-        
-
-        
-        <TextBlock ID="eSc_dummyblock_">
-          
           
           <TextLine ID="line_2"
                     TAGREFS="LT838"
-                    BASELINE="288 679 1428 685" 
+                    BASELINE="288 675 1428 685" 
                     HPOS="274"
-                    VPOS="593"
+                    VPOS="557"
                     WIDTH="1153"
-                    HEIGHT="117">
-            <Shape><Polygon POINTS="283 674 279 602 1423 593 1427 683 1418 710 274 701"/></Shape>
+                    HEIGHT="153">
+            <Shape><Polygon POINTS="283 674 279 571 1418 557 1427 683 1418 710 274 701"/></Shape>
 	    <String CONTENT="requeste est ottroye pour le uieillart. mais"
                     HPOS="274"
-                    VPOS="593"
+                    VPOS="557"
                     WIDTH="1153"
-                    HEIGHT="117"></String>
+                    HEIGHT="153"></String>
           </TextLine>
 
           
@@ -867,6 +797,60 @@
                     HEIGHT="102"></String>
           </TextLine>
 
+          
+          
+          <TextLine ID="eSc_line_40a08209"
+                    TAGREFS="LT838"
+                    BASELINE="268 4281 1422 4285" 
+                    HPOS="261"
+                    VPOS="4182"
+                    WIDTH="1157"
+                    HEIGHT="239">
+            <Shape><Polygon POINTS="265 4277 261 4187 1414 4182 1418 4281 1414 4331 1211 4331 1193 4344 1184 4353 1184 4353 1179 4353 1179 4353 1179 4353 1175 4353 1175 4353 1175 4353 1170 4353 1170 4353 1166 4353 1166 4353 1152 4349 1098 4331 995 4362 914 4385 909 4385 909 4385 909 4385 905 4385 797 4376 797 4376 792 4376 792 4376 792 4376 792 4376 788 4376 788 4376 788 4371 752 4340 670 4385 657 4394 657 4394 657 4394 652 4394 652 4394 652 4394 648 4394 648 4394 643 4394 643 4394 643 4394 634 4389 598 4371 535 4398 486 4416 486 4416 481 4416 481 4416 481 4421 261 4421"/></Shape>
+	    <String CONTENT="ilz uirent. ilz creuerent la foy de iesu crist"
+                    HPOS="261"
+                    VPOS="4182"
+                    WIDTH="1157"
+                    HEIGHT="239"></String>
+          </TextLine>
+
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="1116"
+                   VPOS="449"
+                   WIDTH="464"
+                   HEIGHT="104"
+                   ID="block_2"
+                   TAGREFS="BT2382">
+          <Shape><Polygon POINTS="1580 467 1580 535 1134 553 1116 449"/></Shape>
+          
+          
+          <TextLine ID="line_0"
+                    TAGREFS="LT838"
+                    BASELINE="1112 530 1567 521" 
+                    HPOS="1107"
+                    VPOS="431"
+                    WIDTH="460"
+                    HEIGHT="140">
+            <Shape><Polygon POINTS="1112 530 1107 431 1558 436 1567 521 1567 566 1112 571"/></Shape>
+	    <String CONTENT="De saint andri."
+                    HPOS="1107"
+                    VPOS="431"
+                    WIDTH="460"
+                    HEIGHT="140"></String>
+          </TextLine>
+
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="1460"
+                   VPOS="647"
+                   WIDTH="1192"
+                   HEIGHT="3656"
+                   ID="eSc_textblock_4e608a22"
+                   TAGREFS="BT2714">
+          <Shape><Polygon POINTS="1460 647 1460 4303 2652 4303 2652 647"/></Shape>
           
           
           <TextLine ID="eSc_line_604d1f47"
@@ -1650,24 +1634,36 @@
           </TextLine>
 
           
+        </TextBlock>
+        
+        <TextBlock HPOS="2251"
+                   VPOS="467"
+                   WIDTH="356"
+                   HEIGHT="86"
+                   ID="block_1"
+                   TAGREFS="BT2390">
+          <Shape><Polygon POINTS="2589 467 2607 553 2251 553 2251 467"/></Shape>
           
-          <TextLine ID="eSc_line_40a08209"
-                    
-                    BASELINE="268 4281 1422 4285" 
-                    HPOS="261"
-                    VPOS="4182"
-                    WIDTH="1157"
-                    HEIGHT="239">
-            <Shape><Polygon POINTS="265 4277 261 4187 1414 4182 1418 4281 1414 4331 1211 4331 1193 4344 1184 4353 1184 4353 1179 4353 1179 4353 1179 4353 1175 4353 1175 4353 1175 4353 1170 4353 1170 4353 1166 4353 1166 4353 1152 4349 1098 4331 995 4362 914 4385 909 4385 909 4385 909 4385 905 4385 797 4376 797 4376 792 4376 792 4376 792 4376 792 4376 788 4376 788 4376 788 4371 752 4340 670 4385 657 4394 657 4394 657 4394 652 4394 652 4394 652 4394 648 4394 648 4394 643 4394 643 4394 643 4394 634 4389 598 4371 535 4398 486 4416 486 4416 481 4416 481 4416 481 4421 261 4421"/></Shape>
-	    <String CONTENT="ilz uirent. ilz creuerent la foy de iesu crist"
-                    HPOS="261"
-                    VPOS="4182"
-                    WIDTH="1157"
-                    HEIGHT="239"></String>
+          
+          <TextLine ID="line_1"
+                    TAGREFS="LT838"
+                    BASELINE="2242 539 2602 530" 
+                    HPOS="2233"
+                    VPOS="449"
+                    WIDTH="369"
+                    HEIGHT="117">
+            <Shape><Polygon POINTS="2242 539 2233 458 2589 449 2602 530 2602 562 2242 566"/></Shape>
+	    <String CONTENT="Fueillet.ix"
+                    HPOS="2233"
+                    VPOS="449"
+                    WIDTH="369"
+                    HEIGHT="117"></String>
           </TextLine>
 
           
         </TextBlock>
+        
+
         
       </PrintSpace>
     </Page>

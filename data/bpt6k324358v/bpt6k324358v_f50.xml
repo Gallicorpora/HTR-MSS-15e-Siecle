@@ -732,7 +732,7 @@
           
           
           <TextLine ID="eSc_line_7a4dfcdf"
-                    
+                    TAGREFS="LT838"
                     BASELINE="988 4029 2111 4002" 
                     HPOS="971"
                     VPOS="3926"
@@ -749,7 +749,7 @@
           
           
           <TextLine ID="eSc_line_922fcec5"
-                    
+                    TAGREFS="LT838"
                     BASELINE="995 4113 2107 4087" 
                     HPOS="985"
                     VPOS="3993"
@@ -766,7 +766,7 @@
           
           
           <TextLine ID="eSc_line_7d6cc896"
-                    
+                    TAGREFS="LT838"
                     BASELINE="999 4183 2110 4164" 
                     HPOS="985"
                     VPOS="4083"
@@ -783,7 +783,7 @@
           
           
           <TextLine ID="eSc_line_af7ab6fb"
-                    
+                    TAGREFS="LT838"
                     BASELINE="986 4283 2107 4246" 
                     HPOS="971"
                     VPOS="4151"
@@ -1313,7 +1313,7 @@
           
           
           <TextLine ID="eSc_line_c1b8abbc"
-                    
+                    TAGREFS="LT838"
                     BASELINE="2150 4232 2164 4232 3289 4232" 
                     HPOS="2141"
                     VPOS="4142"

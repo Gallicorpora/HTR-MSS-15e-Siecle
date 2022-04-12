@@ -698,7 +698,7 @@
           
           
           <TextLine ID="eSc_line_30902322"
-                    
+                    TAGREFS="LT838"
                     BASELINE="270 3935 1366 3935" 
                     HPOS="258"
                     VPOS="3844"
@@ -715,7 +715,7 @@
           
           
           <TextLine ID="eSc_line_90fedb91"
-                    
+                    TAGREFS="LT838"
                     BASELINE="258 4040 1377 4031" 
                     HPOS="253"
                     VPOS="3925"
@@ -732,7 +732,7 @@
           
           
           <TextLine ID="eSc_line_5a09dea2"
-                    
+                    TAGREFS="LT838"
                     BASELINE="265 4094 1364 4098" 
                     HPOS="262"
                     VPOS="4011"
@@ -749,7 +749,7 @@
           
           
           <TextLine ID="eSc_line_5aae44db"
-                    
+                    TAGREFS="LT838"
                     BASELINE="261 4182 1370 4172" 
                     HPOS="251"
                     VPOS="4088"
@@ -990,7 +990,7 @@
           
           
           <TextLine ID="eSc_line_c99b21b1"
-                    
+                    TAGREFS="LT838"
                     BASELINE="1446 1454 2603 1441" 
                     HPOS="1432"
                     VPOS="1368"
@@ -1551,7 +1551,7 @@
           
           
           <TextLine ID="eSc_line_96015482"
-                    
+                    TAGREFS="LT838"
                     BASELINE="1455 4095 2609 4085" 
                     HPOS="1437"
                     VPOS="3997"
@@ -1568,7 +1568,7 @@
           
           
           <TextLine ID="eSc_line_7f3fd0f6"
-                    
+                    TAGREFS="LT838"
                     BASELINE="1450 4185 2604 4174" 
                     HPOS="1437"
                     VPOS="4074"
@@ -1585,7 +1585,7 @@
           
           
           <TextLine ID="eSc_line_1dd4a164"
-                    
+                    TAGREFS="LT838"
                     BASELINE="1459 4254 2617 4252" 
                     HPOS="1450"
                     VPOS="4175"

@@ -837,7 +837,7 @@
           
           
           <TextLine ID="line_11"
-                    
+                    TAGREFS="LT839"
                     BASELINE="1474 1000 2612 993" 
                     HPOS="1473"
                     VPOS="894"
@@ -871,7 +871,7 @@
           
           
           <TextLine ID="eSc_line_93bb96bd"
-                    
+                    TAGREFS="LT838"
                     BASELINE="1479 1070 2621 1070" 
                     HPOS="1455"
                     VPOS="989"
@@ -1483,7 +1483,7 @@
           
           
           <TextLine ID="line_78"
-                    
+                    TAGREFS="LT838"
                     BASELINE="1479 4165 2603 4183" 
                     HPOS="1477"
                     VPOS="4088"
