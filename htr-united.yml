@@ -62,6 +62,6 @@ volume:
 - metric: lines
   count: 2226
 - metric: regions
-  count: 207
+  count: 206
 transcription-guidelines: "Les normes de transcription suivent les pr\xE9conisations\
   \ du projet CREMMALAB : https://cremmalab.hypotheses.org"
