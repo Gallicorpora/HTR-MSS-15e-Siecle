@@ -1000,16 +1000,6 @@
           
         </TextBlock>
         
-        <TextBlock HPOS="211"
-                   VPOS="832"
-                   WIDTH="1"
-                   HEIGHT="1"
-                   ID="eSc_textblock_9cae998c"
-                   TAGREFS="BT">
-          <Shape><Polygon POINTS="211 832 211 833 212 833 212 832"/></Shape>
-          
-        </TextBlock>
-        
 
         
       </PrintSpace>

@@ -961,18 +961,8 @@
                    WIDTH="1053"
                    HEIGHT="1057"
                    ID="eSc_textblock_aa01bde6"
-                   TAGREFS="BT2712">
+                   TAGREFS="BT2351">
           <Shape><Polygon POINTS="2353 932 2353 1989 3406 1989 3406 932"/></Shape>
-          
-        </TextBlock>
-        
-        <TextBlock HPOS="1141"
-                   VPOS="901"
-                   WIDTH="1"
-                   HEIGHT="1"
-                   ID="eSc_textblock_de8e878e"
-                   TAGREFS="BT">
-          <Shape><Polygon POINTS="1141 901 1141 902 1142 902 1142 901"/></Shape>
           
         </TextBlock>
         
