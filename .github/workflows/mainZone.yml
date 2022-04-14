@@ -15,4 +15,4 @@ jobs:
           pip install lxml
       - name: "Extract text from files' MainZone"
         run:
-          echo "The depository is ${{env.WORKSPACE}}"
+          python3 mainZone.py ./data/*

@@ -5,7 +5,13 @@ from lxml import etree
 import re
 
 
-DIRECTORY = os.environ["PUSHED_DIRECTORY"]  # directory containing Alto xml files
+# Provide --help description for a user running this application from the command line
+parser = argparse.ArgumentParser(description="Extracts and collates MainZone text content from Alto xml files in a given directory.")
+parser.add_argument("Directory (str)", type=str, help=": Relative file path of the directory. The directory name should be equal to the document's Archival Resource Key (ark), eg. bpt6k107371t/")
+args = parser.parse_args()
+
+
+DIRECTORY = str(sys.argv[1])  # directory containing Alto xml files
 NS = {'a':"http://www.loc.gov/standards/alto/ns-v4#"}  # namespace for the Alto xml
 
 
