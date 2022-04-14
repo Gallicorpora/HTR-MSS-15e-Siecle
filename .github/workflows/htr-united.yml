@@ -1,8 +1,12 @@
 # This file has been generated automatically with HTR-United <3 Github Actions form
 name: HTR United Workflow
-'on':
-  - push
-  - pull_request
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 jobs:
   HTRUC:
     runs-on: ubuntu-latest
