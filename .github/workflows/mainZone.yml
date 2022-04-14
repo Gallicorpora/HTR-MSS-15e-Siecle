@@ -1,4 +1,4 @@
-name: "Extract text from MainZones"
+name: "MainZone Text Workflow"
 on: [push, pull_request]
 env:
   WORKSPACE: $GITHUB_WORKSPACE
@@ -15,4 +15,4 @@ jobs:
           - pip install lxml
       - name: "Extract text from files' MainZone"
         run:
-          - echo "The depository is ${{env.WORKSPACE}}"
+          echo "The depository is ${{env.WORKSPACE}}"
