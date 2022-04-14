@@ -11,8 +11,8 @@ jobs:
           python-version: 3.9
       - name: "Install dependencies"
         run:
-          - python -m pip install --upgrade pip
-          - pip install lxml
+          python -m pip install --upgrade pip
+          pip install lxml
       - name: "Extract text from files' MainZone"
         run:
           echo "The depository is ${{env.WORKSPACE}}"
