@@ -1,0 +1,18 @@
+name: "Extract text from MainZones"
+on: [push, pull_request]
+env:
+  WORKSPACE: $GITHUB_WORKSPACE
+jobs:
+  ExtractText:
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v2
+        with:
+          python-version: 3.9
+      - name: "Install dependencies"
+        run:
+          - python -m pip install --upgrade pip
+          - pip install lxml
+      - name: "Extract text from files' MainZone"
+        run:
+          - echo "The depository is ${{env.WORKSPACE}}"
