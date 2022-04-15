@@ -14,4 +14,4 @@ jobs:
           pip install lxml
       - name: "Extract text from files' MainZones"
         run:
-          python mainZone.py $GITHUB_WORKSPACE
+          python mainZone.py ./data/*
