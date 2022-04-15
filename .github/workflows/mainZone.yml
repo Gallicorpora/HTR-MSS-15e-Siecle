@@ -14,7 +14,4 @@ jobs:
           pip install lxml
       - name: "Extract text from files' MainZones"
         run:
-          echo ${{ jobs.github.job.steps.working-directory }}
-          # Relative file path of the directory.
-          # The directory name should be equal to the document's Archival Resource Key (ark)
-          # ex. bpt6k107371t/
+          python mainZone.py ./data
