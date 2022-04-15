@@ -14,7 +14,5 @@ jobs:
           pip install lxml
       - name: "Extract text from files' MainZones"
         run:
-          
           echo ./data/*
-          echo ./data/
-          echo ./data
+          python mainZone.py ./data/*
