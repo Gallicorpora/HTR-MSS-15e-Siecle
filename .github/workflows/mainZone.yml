@@ -15,4 +15,6 @@ jobs:
       - name: "Extract text from files' MainZones"
         run:
           python mainZone.py ./data/*
-          echo [dir for dir in sys.argv if not re.search(r"\..{2,}$", dir)]
+          echo ./data/*
+          echo ./data/
+          echo ./data
