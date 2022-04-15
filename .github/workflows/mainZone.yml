@@ -3,8 +3,6 @@ on:
   push:
     branches:
       - workflow-mainzone
-env:
-  WORKSPACE: $GITHUB_WORKSPACE
 jobs:
   MainZone:
     runs-on: ubuntu-latest
@@ -14,6 +12,11 @@ jobs:
         run:
           python -m pip install --upgrade pip
           pip install lxml
-      - name: "Extract text from files' MainZone"
+      - name: "Extract text from files' MainZones"
         run:
-          echo ${{ github.repository }}
+          echo ${{ github.event_path }}  ${{ github.event_name }}
+          echo ${{ github.ref }}  ${{ github.ref_name }}
+          echo ${{ github.path }}
+          # Relative file path of the directory.
+          # The directory name should be equal to the document's Archival Resource Key (ark)
+          # ex. bpt6k107371t/
