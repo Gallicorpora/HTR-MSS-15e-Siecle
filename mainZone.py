@@ -78,8 +78,11 @@ def format(text, dir):
 
     
 if __name__ == "__main__":
-    directories = [path for path in str(sys.argv) if not re.search(r"\..{2,}$", path)]  # create a list of directories in data/
-    for dir in directories:
-        ordered_files = order_files(dir)
-        text = extract(ordered_files, dir)
-        format(text, dir)
+    if len(sys.argv) > 1:
+        directories = [path for path in sys.argv[1:] if os.path.isdir(path)]  # create a list of directories in data/
+        for dir in directories:
+            ordered_files = order_files(dir)
+            text = extract(ordered_files, dir)
+            format(text, dir)
+    else:
+        print("No directory given")
