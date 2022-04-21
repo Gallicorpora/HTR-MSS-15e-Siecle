@@ -56,33 +56,32 @@ def extract(ordered_files, dir):
     return text
 
 
-def format(text, dir):
+def dump(text, directory):
     """Formats a text according to the needs of the lemmatisation team.
 
     Args:
         text (list): lines of text from a document's MainZone
     """    
-    print(text)
     s = " ".join(text)
     # join all the lines into a single string
-    joined_words = re.sub(r"[\¬|-] ", r"", s)
+    joined_words = re.sub(r"[\¬|-]\s+", r"", s)
     # join together words broken by a ¬ or -
     separate_lines = re.sub(r"([\.\!\?\:])( )([A-ZÉÀ1-9])", r"\1\n\n\3", joined_words)
     separate_lines = re.sub(r"(?<!^)(⁋)", r"\n\n\1", separate_lines)
     # at the end of every sentence or a clause which terminates with a semicolon and precedes a capitalized word, start a new line
     # ex. 'Escoutez ce qu’il en dit :\nTouchant'
-    et_abbreviation = re.sub(r"\⁊", "et", separate_lines)
+    et_abbreviation = re.sub(r"⁊", "et", separate_lines)
     # replace the medieval abbreviation ⁊ with the word "et"
-    with open("{}/{}.txt".format(dir,dir[5:]), "w") as f:
+    with open(os.path.join(directory, os.path.basename(directory)+".txt"), "w") as f:
         f.write(et_abbreviation)
 
     
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         directories = [path for path in sys.argv[1:] if os.path.isdir(path)]  # create a list of directories in data/
-        for dir in directories:
-            ordered_files = order_files(dir)
-            text = extract(ordered_files, dir)
-            format(text, dir)
+        for directory in directories:
+            ordered_files = order_files(directory)
+            text = extract(ordered_files, directory)
+            dump(text, directory)
     else:
         print("No directory given")
