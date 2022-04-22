@@ -18,6 +18,7 @@ jobs:
       - name: "Commit generated text files to ./data/"
         if: github.ref == 'refs/heads/main'
         run: |
+          ls ./data/*.txt
           git add ./data/*.txt
           git commit -m "Generate text files of documents' MainZone text"
           git push
