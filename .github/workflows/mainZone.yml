@@ -17,15 +17,9 @@ jobs:
           python mainZone.py ./data/*
       - name: "Commit generated text files to ./data/"
         run: |
-          ls ./data/*.txt
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add ./data/*.txt
           git commit -m "Generate text files of documents' MainZone text"
           git push
-      - uses: rymndhng/release-on-push-action@master
-        if: ${{ github.ref == 'refs/heads/main' && github.event_name == 'push' }}
-        with:
-          bump_version_scheme: patch
-          use_github_release_notes: true
 
