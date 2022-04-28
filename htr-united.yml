@@ -33,9 +33,9 @@ authors:
   roles:
   - project-manager
 - name: Leroy
-  surname: transcriber
+  surname: Noé
   roles:
-  - Transcriptor
+  - transcriber
 project-name: Gallicorpora
 project-website: https://github.com/Gallicorpora
 language:
