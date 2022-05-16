@@ -19,7 +19,7 @@ authors:
 - name: Christensen
   surname: Kelly
   roles:
-  - null
+  - support
 project-name: Gallicorpora
 project-website: https://github.com/Gallicorpora
 language:
@@ -49,4 +49,4 @@ volume:
   count: 241
 transcription-guidelines: "Les normes de transcription suivent les pr\xE9conisations\
   \ du projet CREMMALAB : https://cremmalab.hypotheses.org"
-citation-file-link: null
+citation-file-link: https://github.com/Gallicorpora/HTR-MSS-15e-Siecle/CITATION.cff
