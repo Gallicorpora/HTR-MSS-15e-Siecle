@@ -30,7 +30,7 @@ script:
 script-type: evenly-mixed
 time:
   notBefore: '1400'
-  notAfter: '1600'
+  notAfter: '1500'
 hands:
   count: 1-per-folder
   precision: estimated
