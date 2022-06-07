@@ -16,8 +16,8 @@ authors:
   surname: "No\xE9"
   roles:
   - transcriber
-- name : Christensen
-  surname : Kelly
+- name: Christensen
+  surname: Kelly
   roles:
   - support
 project-name: Gallicorpora
@@ -30,7 +30,7 @@ script:
 script-type: evenly-mixed
 time:
   notBefore: '1400'
-  notAfter: '1600'
+  notAfter: '1500'
 hands:
   count: 1-per-folder
   precision: estimated
@@ -40,13 +40,17 @@ license:
 format: Alto-XML
 volume:
 - metric: characters
-  count: 98319
+  count: 18289
 - metric: files
-  count: 60
+  count: 20
 - metric: lines
-  count: 3048
+  count: 576
 - metric: regions
-  count: 241
+  count: 51
 transcription-guidelines: "Les normes de transcription suivent les pr\xE9conisations\
   \ du projet CREMMALAB : https://cremmalab.hypotheses.org"
+<<<<<<< HEAD
 citation-file-link: https://github.com/Gallicorpora/HTR-MSS-15e-Siecle/CITATION.cff
+=======
+citation-file-link: https://github.com/Gallicorpora/HTR-MSS-15e-Siecle/CITATION.cff
+>>>>>>> 6bc10509d0fdfef7a26c02104f827670b3caab8f
