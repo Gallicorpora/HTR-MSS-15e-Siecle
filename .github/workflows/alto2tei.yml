@@ -1,11 +1,11 @@
-name: "Text Extraction Workflow"
+name: "ALTO to TEI Workflow"
 on:
   push:
     paths:
       - data/**
       - data/*
 jobs:
-  MainZone:
+  ALTO2TEI:
     runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v2
@@ -13,14 +13,16 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install lxml
-      - name: "Extract and collate text from files' MainZones"
+          pip install requests
+          pip install pyyaml
+          pip install pandas
+      - name: "Create TEI files"
         run: |
-          python text-extraction.py ./data/*
-      - name: "Commit generated text files to ./data/"
+         python alto2tei/run.py
+      - name: "Commit generated files to data/"
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add ./data/*.txt
-          git commit -m "[Automatatic] Extract text from documents' MainZones" || echo "Nothing to commit"
+          git add ./data/*.xml
+          git commit -m "[Automatic] Create TEI files" || echo "Nothing to commit"
           git push || echo "Nothing to push"
-
