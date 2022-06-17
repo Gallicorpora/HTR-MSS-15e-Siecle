@@ -49,8 +49,4 @@ volume:
   count: 51
 transcription-guidelines: "Les normes de transcription suivent les pr\xE9conisations\
   \ du projet CREMMALAB : https://cremmalab.hypotheses.org"
-<<<<<<< HEAD
-citation-file-link: https://github.com/Gallicorpora/HTR-MSS-15e-Siecle/CITATION.cff
-=======
-citation-file-link: https://github.com/Gallicorpora/HTR-MSS-15e-Siecle/CITATION.cff
->>>>>>> 6bc10509d0fdfef7a26c02104f827670b3caab8f
+citation-file-link: https://github.com/Gallicorpora/HTR-MSS-15e-Siecle/CITATION.
