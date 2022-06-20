@@ -40,7 +40,7 @@ license:
 format: Alto-XML
 volume:
 - metric: characters
-  count: 18289
+  count: 18363
 - metric: files
   count: 20
 - metric: lines
@@ -51,3 +51,64 @@ transcription-guidelines: "Les normes de transcription suivent les pr\xE9conisat
   \ du projet CREMMALAB : https://cremmalab.hypotheses.org"
 citation-file-link: https://github.com/Gallicorpora/HTR-MSS-15e-Siecle/CITATION.
 production-software: eScriptorium + Kraken
+characters:
+  mode: NFD
+  members:
+  - e
+  - s
+  - t
+  - i
+  - u
+  - n
+  - a
+  - r
+  - o
+  - l
+  - c
+  - d
+  - m
+  - p
+  - q
+  - g
+  - f
+  - ','
+  - h
+  - y
+  - b
+  - v
+  - z
+  - .
+  - x
+  - "\u0303"
+  - '1'
+  - E
+  - A
+  - '2'
+  - T
+  - "\u0300"
+  - "\u204B"
+  - ''''
+  - L
+  - O
+  - D
+  - '4'
+  - '5'
+  - I
+  - '7'
+  - '8'
+  - "\u204A"
+  - '9'
+  - Q
+  - '0'
+  - "\xB6"
+  - "\u0301"
+  - '3'
+  - N
+  - P
+  - "\u2038"
+  - M
+  - '6'
+  - U
+  - G
+  - S
+  - C
