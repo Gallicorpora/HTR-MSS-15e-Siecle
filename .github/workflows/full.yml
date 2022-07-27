@@ -13,6 +13,7 @@ name: Gallicorpora full workflow
       - data/*
       - alto2tei/**
       - "text-extraction.py"
+  workflow_dispatch: #Allows for manual triggering
 jobs:
   # Addenda from KChristensen
   ALTO2TEI:
