@@ -40,13 +40,13 @@ license:
 format: Alto-XML
 volume:
 - metric: characters
-  count: 18363
+  count: 135412
 - metric: files
-  count: 20
+  count: 70
 - metric: lines
-  count: 576
+  count: 5075
 - metric: regions
-  count: 51
+  count: 375
 transcription-guidelines: "Les normes de transcription suivent les pr\xE9conisations\
   \ du projet CREMMALAB : https://cremmalab.hypotheses.org"
 citation-file-link: https://github.com/Gallicorpora/HTR-MSS-15e-Siecle/CITATION.
@@ -56,8 +56,8 @@ characters:
   members:
   - e
   - s
-  - t
   - i
+  - t
   - u
   - n
   - a
@@ -69,46 +69,93 @@ characters:
   - m
   - p
   - q
-  - g
   - f
-  - ','
-  - h
-  - y
-  - b
-  - v
-  - z
   - .
-  - x
+  - g
   - "\u0303"
-  - '1'
-  - E
-  - A
-  - '2'
-  - T
-  - "\u0300"
-  - "\u204B"
-  - ''''
-  - L
-  - O
-  - D
-  - '4'
-  - '5'
+  - h
+  - z
+  - b
+  - y
   - I
-  - '7'
-  - '8'
+  - x
   - "\u204A"
-  - '9'
-  - Q
-  - '0'
-  - "\xB6"
-  - "\u0301"
-  - '3'
-  - N
-  - P
-  - "\u2038"
-  - M
-  - '6'
-  - U
-  - G
-  - S
+  - ','
+  - E
+  - R
   - C
+  - "\u033E"
+  - Q
+  - L
+  - S
+  - "\u0363"
+  - D
+  - M
+  - A
+  - v
+  - "\u0365"
+  - "\uA751"
+  - "\uA76F"
+  - P
+  - N
+  - T
+  - O
+  - "\u0364"
+  - U
+  - B
+  - "\u204B"
+  - "\u0336"
+  - '1'
+  - "\u1DD1"
+  - "\u02E3"
+  - "\uA770"
+  - '3'
+  - '2'
+  - F
+  - "\u0127"
+  - '6'
+  - "\uA753"
+  - "\u27E6"
+  - "\u27E7"
+  - "\u0368"
+  - '7'
+  - '9'
+  - '4'
+  - ;
+  - '8'
+  - '0'
+  - "\u030C"
+  - "\u1E9C"
+  - '5'
+  - "\u0366"
+  - '-'
+  - H
+  - ''''
+  - G
+  - "\u0300"
+  - j
+  - "\u0142"
+  - "\u0111"
+  - "\u0301"
+  - ^
+  - "\u2038"
+  - '&'
+  - k
+  - "\xB0"
+  - "\u1E9E"
+  - "\xB6"
+  - J
+  - "\u036C"
+  - K
+  - '['
+  - ']'
+  - "\u036F"
+  - V
+  - "\u0327"
+  - (
+  - )
+  - "\u036B"
+  - Y
+  - Z
+  - "\u1DE4"
+  - X
