@@ -5,10 +5,14 @@ name: Gallicorpora full workflow
     paths:
       - data/**
       - data/*
+      - alto2tei/**
+      - "text-extraction.py"
   pull_request:
     paths:
       - data/**
       - data/*
+      - alto2tei/**
+      - "text-extraction.py"
 jobs:
   # Addenda from KChristensen
   ALTO2TEI:
