@@ -1,14 +1,14 @@
 # This file has been generated automatically with HTR-United <3 Github Actions form
 name: Gallicorpora full workflow
 'on':
-  - push:
-      paths:
-        - data/**
-        - data/*
-  - pull_request:
-      paths:
-        - data/**
-        - data/*
+  push:
+    paths:
+      - data/**
+      - data/*
+  pull_request:
+    paths:
+      - data/**
+      - data/*
 jobs:
   # Addenda from KChristensen
   ALTO2TEI:
