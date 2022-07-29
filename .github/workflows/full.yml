@@ -7,12 +7,14 @@ name: Gallicorpora full workflow
       - data/*
       - alto2tei/**
       - "text-extraction.py"
+      - config.yml
   pull_request:
     paths:
       - data/**
       - data/*
       - alto2tei/**
       - "text-extraction.py"
+      - config.yml
   workflow_dispatch: #Allows for manual triggering
 jobs:
   # Addenda from KChristensen
