@@ -1,58 +1,21 @@
-schema: https://htr-united.github.io/schema/2022-04-15/schema.json
-title: "Donn\xE9es HTR manuscrits du 15e si\xE8cle"
-description: "Corpus d'entrainement pour l'HTR compos\xE9 de manuscrits fran\xE7ais\
-  \ du 15e s."
-url: https://github.com/Gallicorpora/HTR-MSS-15e-Siecle
 authors:
 - name: Gabay
+  roles:
+  - project-manager
   surname: Simon
-  roles:
-  - project-manager
 - name: Pinche
-  surname: Ariane
   roles:
   - project-manager
+  surname: Ariane
 - name: Leroy
-  surname: "No\xE9"
   roles:
   - transcriber
+  surname: Noé
 - name: Christensen
-  surname: Kelly
   roles:
   - support
-project-name: Gallicorpora
-project-website: https://github.com/Gallicorpora
-language:
-- frm
-- fra
-script:
-- iso: Latn
-script-type: only-manuscript
-time:
-  notBefore: '1400'
-  notAfter: '1500'
-hands:
-  count: 1-per-folder
-  precision: estimated
-license:
-- name: CC-BY 4.0
-  url: https://creativecommons.org/licenses/by/4.0/
-format: Alto-XML
-volume:
-- metric: characters
-  count: 169221
-- metric: files
-  count: 85
-- metric: lines
-  count: 5937
-- metric: regions
-  count: 458
-transcription-guidelines: "Les normes de transcription suivent les pr\xE9conisations\
-  \ du projet CREMMALAB : https://cremmalab.hypotheses.org"
-citation-file-link: https://github.com/Gallicorpora/HTR-MSS-15e-Siecle/CITATION.
-production-software: eScriptorium + Kraken
+  surname: Kelly
 characters:
-  mode: NFD
   members:
   - e
   - i
@@ -72,94 +35,122 @@ characters:
   - f
   - g
   - .
-  - "\u0303"
+  - ̃
   - h
   - b
   - z
   - y
   - I
   - x
-  - "\u204A"
+  - ⁊
   - ','
   - R
   - E
   - C
-  - "\u033E"
+  - ̾
   - Q
   - L
   - S
   - A
   - D
   - M
-  - "\u0363"
-  - v
-  - "\uA751"
-  - "\u0365"
+  - ͣ
+  - ꝑ
+  - ͥ
   - P
-  - "\uA76F"
+  - ꝯ
   - T
   - N
+  - ¶
   - O
-  - "\u204B"
   - B
-  - "\u0364"
+  - ͤ
   - U
+  - '-'
   - '1'
-  - "\uA770"
-  - "\u1DD1"
-  - "\u0336"
-  - "\u02E3"
+  - ꝰ
+  - ᷑
+  - ̽
   - '2'
   - '3'
-  - "\u1E9C"
+  - ẜ
   - F
-  - "\u27E6"
-  - "\u27E7"
+  - ⟦
+  - ⟧
   - '6'
-  - "\u0127"
-  - "\uA753"
+  - ħ
+  - ꝓ
   - '7'
   - '4'
-  - "\u0368"
+  - ͨ
   - '9'
   - '8'
   - ;
   - G
   - '0'
-  - "\u0366"
-  - "\u030C"
+  - ͦ
   - '5'
-  - '-'
   - H
-  - ''''
-  - j
-  - "\u0300"
-  - "\u0142"
-  - "\u0111"
-  - "\u0301"
-  - "\u036B"
-  - ^
-  - "\u2038"
+  - "'"
+  - ̀
+  - ł
+  - đ
+  - ́
+  - ͫ
+  - ‸
   - '&'
   - k
-  - "\xB0"
-  - "\u1E9E"
-  - "\xB6"
-  - J
-  - "\u036C"
+  - °
+  - ẞ
+  - ͬ
+  - ᷤ
   - K
   - '['
   - ']'
-  - "\u036F"
-  - V
-  - "\u0327"
+  - ͯ
+  - ̧
   - (
   - )
   - Y
   - Z
-  - "\u1DE4"
   - ':'
-  - "\u0367"
-  - "\u1DE0"
-  - /
+  - ͧ
+  - ᷠ
   - X
+  mode: NFD
+citation-file-link: https://github.com/Gallicorpora/HTR-MSS-15e-Siecle/CITATION.
+description: Corpus d'entrainement pour l'HTR composé de manuscrits français du 15e
+  s.
+format: Alto-XML
+hands:
+  count: 1-per-folder
+  precision: estimated
+language:
+- frm
+- fra
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: Gallicorpora
+project-website: https://github.com/Gallicorpora
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notAfter: '1500'
+  notBefore: '1400'
+title: Données HTR manuscrits du 15e siècle
+transcription-guidelines: 'Les normes de transcription suivent les préconisations
+  du projet CREMMALAB : https://cremmalab.hypotheses.org'
+url: https://github.com/Gallicorpora/HTR-MSS-15e-Siecle
+volume:
+- count: 169207
+  metric: characters
+- count: 85
+  metric: files
+- count: 5937
+  metric: lines
+- count: 458
+  metric: regions
